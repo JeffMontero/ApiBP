@@ -1,0 +1,1065 @@
+{
+	"info": {
+		"_postman_id": "f5a725aa-d07a-4a3d-8646-19f41d0af077",
+		"name": "ApiBP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3754781"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "cliente",
+					"item": [
+						{
+							"name": "/api/cliente",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"nombre\": \"eiusmod tempor consectetur\",\n  \"genero\": \"minim cillum\",\n  \"edad\": -78218942,\n  \"identificacion\": \"adipisicing dolor anim ut esse\",\n  \"direccion\": \"laborum adipisicing dolore\",\n  \"telefono\": \"labore do\",\n  \"contraseña\": \"Excepteur enim amet sit laborum\",\n  \"estado\": \"Excepteur eu et in\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/cliente",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"cliente"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"nombre\": \"eiusmod tempor consectetur\",\n  \"genero\": \"minim cillum\",\n  \"edad\": -78218942,\n  \"identificacion\": \"adipisicing dolor anim ut esse\",\n  \"direccion\": \"laborum adipisicing dolore\",\n  \"telefono\": \"labore do\",\n  \"contraseña\": \"Excepteur enim amet sit laborum\",\n  \"estado\": \"Excepteur eu et in\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/cliente",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"cliente"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/cliente",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"idCliente\": -74549222,\n  \"idPersona\": 38717498,\n  \"nombre\": \"eiusmod\",\n  \"genero\": \"deserunt est nulla dolor\",\n  \"edad\": -19924517,\n  \"identificacion\": \"est id\",\n  \"direccion\": \"occa\",\n  \"telefono\": \"ut officia eu\",\n  \"contraseña\": \"irure in ad\",\n  \"estado\": \"et reprehenderit\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/cliente",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"cliente"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"idCliente\": -74549222,\n  \"idPersona\": 38717498,\n  \"nombre\": \"eiusmod\",\n  \"genero\": \"deserunt est nulla dolor\",\n  \"edad\": -19924517,\n  \"identificacion\": \"est id\",\n  \"direccion\": \"occa\",\n  \"telefono\": \"ut officia eu\",\n  \"contraseña\": \"irure in ad\",\n  \"estado\": \"et reprehenderit\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/cliente",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"cliente"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/cliente",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"idCliente\": -12464590\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/cliente",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"cliente"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"idCliente\": -12464590\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/cliente",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"cliente"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/cliente",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/cliente",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"cliente"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/cliente",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"cliente"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/cliente/id",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/cliente/id?id=7595819",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"cliente",
+										"id"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "7595819"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/cliente/id?id=7595819",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"cliente",
+												"id"
+											],
+											"query": [
+												{
+													"key": "id",
+													"value": "7595819"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "cuenta",
+					"item": [
+						{
+							"name": "/api/cuenta",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"cliente\": 94324357,\n  \"numeroCuenta\": \"cupidatat et fugiat\",\n  \"tipoCuenta\": \"esse\",\n  \"saldoinicial\": -71542746.66365921\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/cuenta",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"cuenta"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"cliente\": 94324357,\n  \"numeroCuenta\": \"cupidatat et fugiat\",\n  \"tipoCuenta\": \"esse\",\n  \"saldoinicial\": -71542746.66365921\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/cuenta",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"cuenta"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/cuenta",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"idCuenta\": -52859875,\n  \"cliente\": 51698746,\n  \"numeroCuenta\": \"incididunt id sunt consequat\",\n  \"tipoCuenta\": \"dolor officia mollit et exercitation\",\n  \"saldoInicial\": -19950724.08901888,\n  \"estado\": \"et non ex officia\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/cuenta",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"cuenta"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "PUT",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"idCuenta\": -52859875,\n  \"cliente\": 51698746,\n  \"numeroCuenta\": \"incididunt id sunt consequat\",\n  \"tipoCuenta\": \"dolor officia mollit et exercitation\",\n  \"saldoInicial\": -19950724.08901888,\n  \"estado\": \"et non ex officia\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/cuenta",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"cuenta"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/cuenta",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"idCuenta\": 86670920\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/cuenta",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"cuenta"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"idCuenta\": 86670920\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/cuenta",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"cuenta"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/cuenta",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/cuenta",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"cuenta"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/cuenta",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"cuenta"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/cuenta/Id",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/cuenta/Id?Id=7595819",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"cuenta",
+										"Id"
+									],
+									"query": [
+										{
+											"key": "Id",
+											"value": "7595819"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/cuenta/Id?Id=7595819",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"cuenta",
+												"Id"
+											],
+											"query": [
+												{
+													"key": "Id",
+													"value": "7595819"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "movimiento",
+					"item": [
+						{
+							"name": "/api/movimiento",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"cuenta\": -76052097,\n  \"tipoMovimiento\": \"Duis est sunt culpa\",\n  \"valor\": -66241192.32983019\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/movimiento",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"movimiento"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "POST",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"cuenta\": -76052097,\n  \"tipoMovimiento\": \"Duis est sunt culpa\",\n  \"valor\": -66241192.32983019\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/movimiento",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"movimiento"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/movimiento",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"idMovimiento\": -54798948\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/movimiento",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"movimiento"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "DELETE",
+										"header": [],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n  \"idMovimiento\": -54798948\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/api/movimiento",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"movimiento"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/movimiento",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/movimiento",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"movimiento"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/movimiento",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"movimiento"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/movimiento/reporte",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/movimiento/reporte?FechaInicio=1962-05-06T04:55:33.184Z&FechaFin=1962-05-06T04:55:33.184Z&IdCliente=7595819",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"movimiento",
+										"reporte"
+									],
+									"query": [
+										{
+											"key": "FechaInicio",
+											"value": "1962-05-06T04:55:33.184Z"
+										},
+										{
+											"key": "FechaFin",
+											"value": "1962-05-06T04:55:33.184Z"
+										},
+										{
+											"key": "IdCliente",
+											"value": "7595819"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/movimiento/reporte?FechaInicio=1962-05-06T04:55:33.184Z&FechaFin=1962-05-06T04:55:33.184Z&IdCliente=7595819",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"movimiento",
+												"reporte"
+											],
+											"query": [
+												{
+													"key": "FechaInicio",
+													"value": "1962-05-06T04:55:33.184Z"
+												},
+												{
+													"key": "FechaFin",
+													"value": "1962-05-06T04:55:33.184Z"
+												},
+												{
+													"key": "IdCliente",
+													"value": "7595819"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						},
+						{
+							"name": "/api/movimiento/Id",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "text/plain"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/api/movimiento/Id?Id=7595819",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"movimiento",
+										"Id"
+									],
+									"query": [
+										{
+											"key": "Id",
+											"value": "7595819"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Success",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/api/movimiento/Id?Id=7595819",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"api",
+												"movimiento",
+												"Id"
+											],
+											"query": [
+												{
+													"key": "Id",
+													"value": "7595819"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"isSuccess\": true,\n  \"message\": \"ut aliqua ad\",\n  \"objetoResult\": {}\n}"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}
